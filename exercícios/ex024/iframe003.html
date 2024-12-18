@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugit qui possimus id quisquam. Illo, totam a. Dignissimos mollitia, minima labore debitis ipsum porro. Veritatis aliquid rem beatae eaque recusandae?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, eos, quaerat, dolor iste soluta possimus optio neque dolorum natus eum accusamus odit ipsam doloremque. Tenetur aliquam aspernatur quidem quod voluptatum.</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad est quaerat amet dolorem, fugit libero eos numquam odit doloribus sint esse nesciunt rerum, in quis reprehenderit, eligendi sit nihil quisquam.</p>" name="frame" id="tela">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dolores animi iste debitis, eius placeat unde ipsum cum vel nemo sequi quis rerum et omnis nam obcaecati totam aliquam sunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus dolorem iusto nesciunt, tempore, sed id facere architecto consequatur dolorum mollitia eos totam ab possimus natus expedita incidunt animi repudiandae? Explicabo?</p>
+</body>
+</html>
